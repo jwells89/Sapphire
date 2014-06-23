@@ -23,8 +23,8 @@ In addition to downloading and building [The Omni Group](http://www.omnigroup.co
 ###Using Sapphire
 Please note that Sapphire is far from complete and while it is functional enough for daily use, many features are missing or may work incorrectly. If you use it as your primary web browser, you are doing so at your own risk.
 
-###License and Donations
-Sapphire is licensed under [BSDv3](http://opensource.org/licenses/BSD-3-Clause).
+###License
+Sapphire is licensed under [BSDv3](http://opensource.org/licenses/BSD-3-Clause). Contributions are welcome; simply fork, make your changes, and file a pull request.
 
 
 ###Donations
