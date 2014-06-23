@@ -93,7 +93,6 @@
 		52F828C518E9FE73007184D0 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828C418E9FE73007184D0 /* NSFileManager+DirectoryLocations.m */; };
 		52F828C918EA0338007184D0 /* SPDownloadItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828C818EA0338007184D0 /* SPDownloadItemView.m */; };
 		52F828CB18EA07FD007184D0 /* revealTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52F828CA18EA07FD007184D0 /* revealTemplate.pdf */; };
-		52F828CE18EA2751007184D0 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828CD18EA2751007184D0 /* MSWeakTimer.m */; };
 		86E8D121D6DE410D97886AE8 /* libPods-Sapphire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863CD0A6CE44479E8D6BA414 /* libPods-Sapphire.a */; };
 /* End PBXBuildFile section */
 
@@ -394,8 +393,6 @@
 		52F828C718EA0338007184D0 /* SPDownloadItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDownloadItemView.h; sourceTree = "<group>"; };
 		52F828C818EA0338007184D0 /* SPDownloadItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDownloadItemView.m; sourceTree = "<group>"; };
 		52F828CA18EA07FD007184D0 /* revealTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = revealTemplate.pdf; sourceTree = "<group>"; };
-		52F828CC18EA2751007184D0 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
-		52F828CD18EA2751007184D0 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
 		863CD0A6CE44479E8D6BA414 /* libPods-Sapphire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sapphire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AB300DED99487EB2295280 /* Pods-Sapphire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapphire.xcconfig"; path = "Pods/Pods-Sapphire.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -576,8 +573,6 @@
 				52063CDA18F9A24500A1217F /* NSObject+JWSObjectAdditions.m */,
 				526E7013192EDEF700BED167 /* NSURLRequest+SPURLRequestAdditions.h */,
 				526E7014192EDEF800BED167 /* NSURLRequest+SPURLRequestAdditions.m */,
-				52F828CC18EA2751007184D0 /* MSWeakTimer.h */,
-				52F828CD18EA2751007184D0 /* MSWeakTimer.m */,
 				52656C3D18A03F9400FBDF72 /* SPAboutWindowController.h */,
 				52656C3C18A03F9400FBDF72 /* SPAboutWindowController.m */,
 				52656C3918A03AF900FBDF72 /* SPAboutWindow.xib */,
@@ -1033,7 +1028,6 @@
 				528B2BDB188F13EF00AB01DF /* SPTabItem.m in Sources */,
 				52320AD6189AC18D007F9318 /* NSTreeNode+SPAdditions.m in Sources */,
 				52656D1218A1FAAD00FBDF72 /* SPAddressBar.m in Sources */,
-				52F828CE18EA2751007184D0 /* MSWeakTimer.m in Sources */,
 				52B544831922EB2200CE6D8C /* SPHoldMenuButtonCell.m in Sources */,
 				52F828C918EA0338007184D0 /* SPDownloadItemView.m in Sources */,
 				52063CDD18F9A24500A1217F /* NSObject+JWSObjectAdditions.m in Sources */,
