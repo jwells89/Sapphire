@@ -12,7 +12,6 @@
 #import "SPTabController.h"
 #import "SPURLFormatter.h"
 #import "SPWebView.h"
-#import "NSAlert+Popover.h"
 #import "NSOutlineView+SPAdditions.h"
 
 @interface SPWebViewController : NSObject

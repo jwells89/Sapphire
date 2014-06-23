@@ -28,7 +28,6 @@
 		52656C3518A02D8400FBDF72 /* TabsPrefsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52656C3318A02D8400FBDF72 /* TabsPrefsView.xib */; };
 		52656C3B18A03AF900FBDF72 /* SPAboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52656C3918A03AF900FBDF72 /* SPAboutWindow.xib */; };
 		52656C3E18A03F9400FBDF72 /* SPAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52656C3C18A03F9400FBDF72 /* SPAboutWindowController.m */; };
-		52656C4318A09F8800FBDF72 /* NSAlert+Popover.m in Sources */ = {isa = PBXBuildFile; fileRef = 52656C4118A09F8800FBDF72 /* NSAlert+Popover.m */; };
 		52656C4718A0A38E00FBDF72 /* NSOutlineView+SPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52656C4618A0A38E00FBDF72 /* NSOutlineView+SPAdditions.m */; };
 		52656C4C18A0B31C00FBDF72 /* NSSplitView+DMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52656C4B18A0B31C00FBDF72 /* NSSplitView+DMAdditions.m */; };
 		52656C4E18A0B40300FBDF72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52656C4D18A0B40300FBDF72 /* QuartzCore.framework */; };
@@ -49,8 +48,6 @@
 		528B2BB7188E58BC00AB01DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528B2B93188E58BB00AB01DF /* Cocoa.framework */; };
 		528B2BBF188E58BD00AB01DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528B2BBD188E58BD00AB01DF /* InfoPlist.strings */; };
 		528B2BC1188E58BD00AB01DF /* SapphireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B2BC0188E58BD00AB01DF /* SapphireTests.m */; };
-		528B2BD1188E5A5200AB01DF /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B2BCE188E5A5200AB01DF /* INAppStoreWindow.m */; };
-		528B2BD2188E5A5200AB01DF /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B2BD0188E5A5200AB01DF /* INWindowButton.m */; };
 		528B2BDB188F13EF00AB01DF /* SPTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B2BDA188F13EF00AB01DF /* SPTabItem.m */; };
 		528B2BDE188F2E2300AB01DF /* SPSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 528B2BDD188F2E2300AB01DF /* SPSplitView.m */; };
 		52A10F5D18EDDE9100188398 /* AdvancedPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A10F5B18EDDE9100188398 /* AdvancedPrefsViewController.m */; };
@@ -89,9 +86,6 @@
 		52EE0C14189CD4AA007D2D49 /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52B8D62E1895AEB500F33B32 /* OmniFoundation.framework */; };
 		52EE0C15189CD4B8007D2D49 /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52B8D6121895AEAB00F33B32 /* OmniBase.framework */; };
 		52EE0C5C189D7C58007D2D49 /* tabCloseTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52EE0C5B189D7C58007D2D49 /* tabCloseTemplate.pdf */; };
-		52EE0C66189EF0CF007D2D49 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 52EE0C5E189EF0CF007D2D49 /* .gitignore */; };
-		52EE0C69189EF0CF007D2D49 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EE0C62189EF0CF007D2D49 /* MASPreferencesWindow.xib */; };
-		52EE0C6A189EF0CF007D2D49 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EE0C64189EF0CF007D2D49 /* MASPreferencesWindowController.m */; };
 		52F828A518E63D8E007184D0 /* SPAddressTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828A418E63D8E007184D0 /* SPAddressTitleView.m */; };
 		52F828BA18E886D9007184D0 /* downloadsTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52F828B918E886D9007184D0 /* downloadsTemplate.pdf */; };
 		52F828BD18E891CC007184D0 /* SPDownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828BC18E891CC007184D0 /* SPDownloadsController.m */; };
@@ -100,9 +94,7 @@
 		52F828C918EA0338007184D0 /* SPDownloadItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828C818EA0338007184D0 /* SPDownloadItemView.m */; };
 		52F828CB18EA07FD007184D0 /* revealTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52F828CA18EA07FD007184D0 /* revealTemplate.pdf */; };
 		52F828CE18EA2751007184D0 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F828CD18EA2751007184D0 /* MSWeakTimer.m */; };
-		52FC6F70193EA9DA0000E833 /* INAppStoreWindowSwizzling.c in Sources */ = {isa = PBXBuildFile; fileRef = 52FC6F6A193EA9DA0000E833 /* INAppStoreWindowSwizzling.c */; };
-		52FC6F71193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FC6F6D193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.m */; };
-		52FC6F72193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FC6F6F193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.m */; };
+		86E8D121D6DE410D97886AE8 /* libPods-Sapphire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 863CD0A6CE44479E8D6BA414 /* libPods-Sapphire.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -303,8 +295,6 @@
 		52656C3918A03AF900FBDF72 /* SPAboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPAboutWindow.xib; sourceTree = "<group>"; };
 		52656C3C18A03F9400FBDF72 /* SPAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAboutWindowController.m; sourceTree = "<group>"; };
 		52656C3D18A03F9400FBDF72 /* SPAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAboutWindowController.h; sourceTree = "<group>"; };
-		52656C4018A09F8800FBDF72 /* NSAlert+Popover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+Popover.h"; sourceTree = "<group>"; };
-		52656C4118A09F8800FBDF72 /* NSAlert+Popover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+Popover.m"; sourceTree = "<group>"; };
 		52656C4518A0A38E00FBDF72 /* NSOutlineView+SPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOutlineView+SPAdditions.h"; sourceTree = "<group>"; };
 		52656C4618A0A38E00FBDF72 /* NSOutlineView+SPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOutlineView+SPAdditions.m"; sourceTree = "<group>"; };
 		52656C4818A0AE4500FBDF72 /* WebPreferencesPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPreferencesPrivate.h; sourceTree = "<group>"; };
@@ -341,10 +331,6 @@
 		528B2BBC188E58BC00AB01DF /* SapphireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SapphireTests-Info.plist"; sourceTree = "<group>"; };
 		528B2BBE188E58BD00AB01DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		528B2BC0188E58BD00AB01DF /* SapphireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SapphireTests.m; sourceTree = "<group>"; };
-		528B2BCD188E5A5200AB01DF /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
-		528B2BCE188E5A5200AB01DF /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
-		528B2BCF188E5A5200AB01DF /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
-		528B2BD0188E5A5200AB01DF /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
 		528B2BD9188F13EF00AB01DF /* SPTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabItem.h; sourceTree = "<group>"; };
 		528B2BDA188F13EF00AB01DF /* SPTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabItem.m; sourceTree = "<group>"; };
 		528B2BDC188F2E2300AB01DF /* SPSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSplitView.h; sourceTree = "<group>"; };
@@ -395,11 +381,6 @@
 		52EE0C04189C8C20007D2D49 /* SPDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDocumentController.m; sourceTree = "<group>"; };
 		52EE0C06189CADBB007D2D49 /* bookmarkTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bookmarkTemplate.pdf; sourceTree = "<group>"; };
 		52EE0C5B189D7C58007D2D49 /* tabCloseTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tabCloseTemplate.pdf; sourceTree = "<group>"; };
-		52EE0C5E189EF0CF007D2D49 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		52EE0C61189EF0CF007D2D49 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
-		52EE0C62189EF0CF007D2D49 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
-		52EE0C63189EF0CF007D2D49 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		52EE0C64189EF0CF007D2D49 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
 		52F828A318E63D8E007184D0 /* SPAddressTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAddressTitleView.h; sourceTree = "<group>"; };
 		52F828A418E63D8E007184D0 /* SPAddressTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAddressTitleView.m; sourceTree = "<group>"; };
 		52F828B918E886D9007184D0 /* downloadsTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = downloadsTemplate.pdf; sourceTree = "<group>"; };
@@ -415,12 +396,8 @@
 		52F828CA18EA07FD007184D0 /* revealTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = revealTemplate.pdf; sourceTree = "<group>"; };
 		52F828CC18EA2751007184D0 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
 		52F828CD18EA2751007184D0 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
-		52FC6F6A193EA9DA0000E833 /* INAppStoreWindowSwizzling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INAppStoreWindowSwizzling.c; sourceTree = "<group>"; };
-		52FC6F6B193EA9DA0000E833 /* INAppStoreWindowSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindowSwizzling.h; sourceTree = "<group>"; };
-		52FC6F6C193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INTitlebarView+CoreUIRendering.h"; sourceTree = "<group>"; };
-		52FC6F6D193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "INTitlebarView+CoreUIRendering.m"; sourceTree = "<group>"; };
-		52FC6F6E193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+INAppStoreWindowFixes.h"; sourceTree = "<group>"; };
-		52FC6F6F193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+INAppStoreWindowFixes.m"; sourceTree = "<group>"; };
+		863CD0A6CE44479E8D6BA414 /* libPods-Sapphire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sapphire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AB300DED99487EB2295280 /* Pods-Sapphire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapphire.xcconfig"; path = "Pods/Pods-Sapphire.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +414,7 @@
 				52EE0C10189CD384007D2D49 /* OmniBase.framework in Frameworks */,
 				520189E7192144D900EA80AF /* JavaScriptCore.framework in Frameworks */,
 				520189E9192144D900EA80AF /* WebInspector.framework in Frameworks */,
+				86E8D121D6DE410D97886AE8 /* libPods-Sapphire.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,15 +446,6 @@
 			name = "Preference Panes";
 			sourceTree = "<group>";
 		};
-		52656C3F18A09F8800FBDF72 /* NSAlert-Popover */ = {
-			isa = PBXGroup;
-			children = (
-				52656C4018A09F8800FBDF72 /* NSAlert+Popover.h */,
-				52656C4118A09F8800FBDF72 /* NSAlert+Popover.m */,
-			);
-			path = "NSAlert-Popover";
-			sourceTree = "<group>";
-		};
 		52656C4918A0B31C00FBDF72 /* NSSplitView+DMAdditions */ = {
 			isa = PBXGroup;
 			children = (
@@ -495,6 +464,7 @@
 				528B2BBA188E58BC00AB01DF /* SapphireTests */,
 				528B2B92188E58BB00AB01DF /* Frameworks */,
 				528B2B91188E58BB00AB01DF /* Products */,
+				B2AB300DED99487EB2295280 /* Pods-Sapphire.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -519,6 +489,7 @@
 				528B2B93188E58BB00AB01DF /* Cocoa.framework */,
 				528B2BB5188E58BC00AB01DF /* XCTest.framework */,
 				528B2B95188E58BC00AB01DF /* Other Frameworks */,
+				863CD0A6CE44479E8D6BA414 /* libPods-Sapphire.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -612,13 +583,10 @@
 				52656C3918A03AF900FBDF72 /* SPAboutWindow.xib */,
 				528B2BA8188E58BC00AB01DF /* SPDocument.xib */,
 				528B2BAB188E58BC00AB01DF /* MainMenu.xib */,
-				52656C30189F3C3500FBDF72 /* Preference Panes */,
 				528B2BAE188E58BC00AB01DF /* Images.xcassets */,
+				52656C30189F3C3500FBDF72 /* Preference Panes */,
 				52E55C0F1895D28700E62B93 /* Resources */,
 				52656C4918A0B31C00FBDF72 /* NSSplitView+DMAdditions */,
-				52656C3F18A09F8800FBDF72 /* NSAlert-Popover */,
-				52EE0C5D189EF0CF007D2D49 /* MASPreferences */,
-				528B2BCC188E5A5200AB01DF /* INAppStoreWindow */,
 				528B2B9A188E58BC00AB01DF /* Supporting Files */,
 			);
 			path = Sapphire;
@@ -652,18 +620,6 @@
 				528B2BBD188E58BD00AB01DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		528B2BCC188E5A5200AB01DF /* INAppStoreWindow */ = {
-			isa = PBXGroup;
-			children = (
-				52FC6F69193EA9DA0000E833 /* Extensions */,
-				528B2BCD188E5A5200AB01DF /* INAppStoreWindow.h */,
-				528B2BCE188E5A5200AB01DF /* INAppStoreWindow.m */,
-				528B2BCF188E5A5200AB01DF /* INWindowButton.h */,
-				528B2BD0188E5A5200AB01DF /* INWindowButton.m */,
-			);
-			path = INAppStoreWindow;
 			sourceTree = "<group>";
 		};
 		52B8D60A1895AEAA00F33B32 /* Products */ = {
@@ -727,31 +683,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		52EE0C5D189EF0CF007D2D49 /* MASPreferences */ = {
-			isa = PBXGroup;
-			children = (
-				52EE0C5E189EF0CF007D2D49 /* .gitignore */,
-				52EE0C61189EF0CF007D2D49 /* MASPreferencesViewController.h */,
-				52EE0C62189EF0CF007D2D49 /* MASPreferencesWindow.xib */,
-				52EE0C63189EF0CF007D2D49 /* MASPreferencesWindowController.h */,
-				52EE0C64189EF0CF007D2D49 /* MASPreferencesWindowController.m */,
-			);
-			path = MASPreferences;
-			sourceTree = "<group>";
-		};
-		52FC6F69193EA9DA0000E833 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				52FC6F6A193EA9DA0000E833 /* INAppStoreWindowSwizzling.c */,
-				52FC6F6B193EA9DA0000E833 /* INAppStoreWindowSwizzling.h */,
-				52FC6F6C193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.h */,
-				52FC6F6D193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.m */,
-				52FC6F6E193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.h */,
-				52FC6F6F193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.m */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -759,11 +690,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528B2BC4188E58BD00AB01DF /* Build configuration list for PBXNativeTarget "Sapphire" */;
 			buildPhases = (
+				589BFAAA5F9E4D2DA5B7EE9E /* Check Pods Manifest.lock */,
 				52656C3618A03A4500FBDF72 /* ShellScript */,
 				528B2B8C188E58BB00AB01DF /* Sources */,
 				52B8D64B1895AFF000F33B32 /* CopyFiles */,
 				528B2B8D188E58BB00AB01DF /* Frameworks */,
 				528B2B8E188E58BB00AB01DF /* Resources */,
+				ED4CDCD61399431C8CC5BF7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -989,7 +922,6 @@
 				52A10F5E18EDDE9100188398 /* AdvancedPrefsView.xib in Resources */,
 				528B2B9E188E58BC00AB01DF /* InfoPlist.strings in Resources */,
 				52F828BA18E886D9007184D0 /* downloadsTemplate.pdf in Resources */,
-				52EE0C66189EF0CF007D2D49 /* .gitignore in Resources */,
 				528B2BAF188E58BC00AB01DF /* Images.xcassets in Resources */,
 				52EE0C07189CADBB007D2D49 /* bookmarkTemplate.pdf in Resources */,
 				52E55C1D1895D32600E62B93 /* CleanTemplate.pdf in Resources */,
@@ -1013,7 +945,6 @@
 				52E55C1B1895D32600E62B93 /* SmallCloseTemplate.pdf in Resources */,
 				52CD9D0F18F3389D00BC8E7B /* backTemplate.pdf in Resources */,
 				52E55C1A1895D32600E62B93 /* lock.pdf in Resources */,
-				52EE0C69189EF0CF007D2D49 /* MASPreferencesWindow.xib in Resources */,
 				52E55C1E1895D32600E62B93 /* PauseTemplate.pdf in Resources */,
 				52E55C211895D32600E62B93 /* ShowStatusTemplate.pdf in Resources */,
 				52656C3B18A03AF900FBDF72 /* SPAboutWindow.xib in Resources */,
@@ -1044,6 +975,36 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((bN += 1))\nbN=$(printf \"%d\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"";
 		};
+		589BFAAA5F9E4D2DA5B7EE9E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4CDCD61399431C8CC5BF7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Sapphire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1053,8 +1014,6 @@
 			files = (
 				528B2BDE188F2E2300AB01DF /* SPSplitView.m in Sources */,
 				52320AD3189A3786007F9318 /* NSTreeController+SPAdditions.m in Sources */,
-				528B2BD1188E5A5200AB01DF /* INAppStoreWindow.m in Sources */,
-				52656C4318A09F8800FBDF72 /* NSAlert+Popover.m in Sources */,
 				52F828BD18E891CC007184D0 /* SPDownloadsController.m in Sources */,
 				52656C2E189F3C2800FBDF72 /* GeneralPrefsViewController.m in Sources */,
 				52E55C261895E48200E62B93 /* SPMainViewController.m in Sources */,
@@ -1063,19 +1022,15 @@
 				52A10F5D18EDDE9100188398 /* AdvancedPrefsViewController.m in Sources */,
 				52320ADC189AE1C1007F9318 /* SPSplitViewDelegate.m in Sources */,
 				52F828A518E63D8E007184D0 /* SPAddressTitleView.m in Sources */,
-				52FC6F71193EA9DA0000E833 /* INTitlebarView+CoreUIRendering.m in Sources */,
 				52E56264189638B000E62B93 /* NSString+SPURLAdditions.m in Sources */,
 				52656C3E18A03F9400FBDF72 /* SPAboutWindowController.m in Sources */,
 				52E562611896369900E62B93 /* SPURLFormatter.m in Sources */,
-				52EE0C6A189EF0CF007D2D49 /* MASPreferencesWindowController.m in Sources */,
-				52FC6F70193EA9DA0000E833 /* INAppStoreWindowSwizzling.c in Sources */,
 				52656C4718A0A38E00FBDF72 /* NSOutlineView+SPAdditions.m in Sources */,
 				52656C4C18A0B31C00FBDF72 /* NSSplitView+DMAdditions.m in Sources */,
 				52320ABD189A1665007F9318 /* SPWebView.m in Sources */,
 				52E55C291895FBD900E62B93 /* SPWebViewController.m in Sources */,
 				528B2BA0188E58BC00AB01DF /* main.m in Sources */,
 				528B2BDB188F13EF00AB01DF /* SPTabItem.m in Sources */,
-				528B2BD2188E5A5200AB01DF /* INWindowButton.m in Sources */,
 				52320AD6189AC18D007F9318 /* NSTreeNode+SPAdditions.m in Sources */,
 				52656D1218A1FAAD00FBDF72 /* SPAddressBar.m in Sources */,
 				52F828CE18EA2751007184D0 /* MSWeakTimer.m in Sources */,
@@ -1087,7 +1042,6 @@
 				525A5B311904B6EA005EB347 /* SPSwipeIndicator.m in Sources */,
 				52F828C518E9FE73007184D0 /* NSFileManager+DirectoryLocations.m in Sources */,
 				525A5B301904B6EA005EB347 /* SPSwipeClipView.m in Sources */,
-				52FC6F72193EA9DA0000E833 /* NSDocument+INAppStoreWindowFixes.m in Sources */,
 				52656D0D18A1EB2D00FBDF72 /* SPOutlineView.m in Sources */,
 				526E7015192EDEF800BED167 /* NSURLRequest+SPURLRequestAdditions.m in Sources */,
 				52F828C018E891EC007184D0 /* SPDownloadItem.m in Sources */,
@@ -1238,6 +1192,7 @@
 		};
 		528B2BC5188E58BD00AB01DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AB300DED99487EB2295280 /* Pods-Sapphire.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1260,6 +1215,7 @@
 		};
 		528B2BC6188E58BD00AB01DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AB300DED99487EB2295280 /* Pods-Sapphire.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
