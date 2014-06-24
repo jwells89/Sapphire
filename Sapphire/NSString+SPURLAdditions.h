@@ -12,5 +12,6 @@
 @interface NSString (SPURLAdditions)
 
 -(BOOL)hasValidURLScheme;
+- (NSString *)fullyEncodedURLString;
 
 @end

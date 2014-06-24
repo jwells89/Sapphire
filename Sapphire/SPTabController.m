@@ -377,7 +377,10 @@
 -(NSArray *)userTabGroups
 {
     if ([self.tabItemArray count] > 0) {
-        return [self.tabItemArray arrayByRemovingObject:[self.tabItemArray objectAtIndex:0]];
+        NSMutableArray *tabGroups = [NSMutableArray arrayWithArray:self.tabItemArray];
+        [tabGroups removeObjectAtIndex:0];
+        
+        return tabGroups;
     }
     return nil;
 }

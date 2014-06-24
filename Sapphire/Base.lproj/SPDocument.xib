@@ -85,17 +85,13 @@
                                                                         <textField verticalHuggingPriority="750" id="QW3-kc-VMh">
                                                                             <rect key="frame" x="0.0" y="1" width="122" height="14"/>
                                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" title="HEADER CELL" id="wsW-ds-MkI">
+                                                                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="HEADER CELL" id="wsW-ds-MkI">
                                                                                 <font key="font" metaFont="smallSystemBold"/>
                                                                                 <color key="textColor" red="0.43921568630000002" green="0.4941176471" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <connections>
-                                                                                <binding destination="rwO-QD-3GB" name="value" keyPath="objectValue.title" id="b49-zJ-opP">
-                                                                                    <dictionary key="options">
-                                                                                        <string key="NSValueTransformerName">OFUppercaseStringTransformer</string>
-                                                                                    </dictionary>
-                                                                                </binding>
+                                                                                <binding destination="rwO-QD-3GB" name="value" keyPath="objectValue.title" id="fg6-jn-9yy"/>
                                                                             </connections>
                                                                         </textField>
                                                                         <button id="emG-bb-dWe">
@@ -794,10 +790,10 @@ Gw
                                 <rect key="frame" x="0.0" y="0.0" width="222" height="102"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <size key="minSize" width="222" height="102"/>
+                                <size key="minSize" width="225" height="102"/>
                                 <size key="maxSize" width="463" height="10000000"/>
                                 <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <size key="minSize" width="222" height="102"/>
+                                <size key="minSize" width="225" height="102"/>
                                 <size key="maxSize" width="463" height="10000000"/>
                             </textView>
                         </subviews>

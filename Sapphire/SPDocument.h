@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <OmniFoundation/OmniFoundation.h>
 #import <WebKit/WebKit.h>
 #import "SPWebView.h"
 #import "INAppStoreWindow.h"

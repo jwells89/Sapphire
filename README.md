@@ -18,9 +18,13 @@ Sapphire is a WebKit-based web browser for OS X 10.9 and above that focuses on p
 ...and more.
 
 ###Building Sapphire
-In addition to downloading and building [The Omni Group](http://www.omnigroup.com/)'s OmniFoundation and OmniBase, you will need to supply a build of the WebKit frameworks (both nightly and system-included variations work). Dependency on the Omni frameworks will be removed in a future commit.
+CocoaPods is required for dependency management. See [The CocoaPods Website](http://cocoapods.org/) for details on how to install it.
 
-Smaller dependences can be installed through CocoaPods via a simple `pod install`.
+1. Clone this repository
+2. In the terminal, change directory to the newly cloned repository
+3. Run `pod install`
+
+This will install smaller dependencies. You will now need to provide a build of WebKit. Nightly builds are recommended, but the `WebKit.framework` bundled with OS X will work as well.
 
 ###Using Sapphire
 Please note that Sapphire is far from complete and while it is functional enough for daily use, many features are missing or may work incorrectly. If you use it as your primary web browser, you are doing so at your own risk.

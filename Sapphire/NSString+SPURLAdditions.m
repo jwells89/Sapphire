@@ -21,4 +21,13 @@
     return NO;
 }
 
+- (NSString *)fullyEncodedURLString
+{
+    return (__bridge_transfer NSString *)CFURLCreateStringByAddingPercentEscapes(NULL,
+                                                                                 (__bridge CFStringRef)self,
+                                                                                 NULL,
+                                                                                 NULL,
+                                                                                 kCFStringEncodingUTF8);
+}
+
 @end

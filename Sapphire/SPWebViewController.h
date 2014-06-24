@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <OmniFoundation/OmniFoundation.h>
 #import <WebKit/WebKit.h>
 #import "SPTabController.h"
 #import "SPURLFormatter.h"

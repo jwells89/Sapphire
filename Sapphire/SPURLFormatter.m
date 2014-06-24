@@ -13,19 +13,23 @@
 
 +(NSArray *)allowedSchemes
 {
-    return @[@"http://", @"https://"];
+    return @[@"http://", @"https://", @"file:///"];
 }
 
 +(NSURL *)URLFromString:(NSString *)urlString
 {
+    NSString *encodedURL = [urlString fullyEncodedURLString];
+    
     if ([urlString isNotEqualTo:@""] && [urlString hasValidURLScheme]) {
-        return [NSURL URLWithString:[urlString fullyEncodeAsIURIReference]];
+        return [NSURL URLWithString:urlString];
     } else {
-        NSString *prefferedScheme = [self allowedSchemes][0];
-        NSString *compositeString = [prefferedScheme stringByAppendingString:urlString];
+        NSString *preferredScheme = [self allowedSchemes][0];
         
-        return [NSURL URLWithString:[compositeString fullyEncodeAsIURIReference]];
+        NSString *urlWithScheme = [preferredScheme stringByAppendingString:encodedURL];
+        
+        return [NSURL URLWithString:urlWithScheme];
     }
+    
     return nil;
 }
 
