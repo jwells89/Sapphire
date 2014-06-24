@@ -41,7 +41,7 @@
 <a name="planned-features" class="anchor" href="#planned-features"><span class="octicon octicon-link"></span></a>Planned Features</h3>
 
 <ul>
-<li>Horizontal "source list" tab organization, including support for groups, smart groups, and sticky groups</li>
+<li>Vertical "source list" tab organization, including support for groups, smart groups, and sticky groups</li>
 <li>Per-site settings, allowing Java, JavaScript, and web plugins to be enabled or disabled on a site-to-site basis</li>
 <li>Per-site customizations through user stylesheets and JavaScript</li>
 <li>HTML5 video and audio substitution in place of web plugins where possible'</li>
@@ -53,8 +53,14 @@
 
 <h3>
 <a name="building-sapphire" class="anchor" href="#building-sapphire"><span class="octicon octicon-link"></span></a>Building Sapphire</h3>
+<p>CocoaPods is required for dependency management. See The CocoaPods Website for details on how to install it.</p>
 
-<p>In addition to downloading and building <a href="http://www.omnigroup.com/">The Omni Group</a>'s OmniFoundation and OmniBase, you will need to supply a build of the WebKit frameworks (both nightly and system-included variations work). Dependency on the Omni frameworks will be removed in a future commit.</p>
+<ol>
+<li>Clone this repository</li>
+<li>In the terminal, change directory to the newly cloned repository</li>
+<li>Run `pod install`</li>
+<p>This will install smaller dependencies. You will now need to provide a build of WebKit. Nightly builds are recommended, but the WebKit.framework bundled with OS X will work as well.</p>
+</ol>
 
 <h3>
 <a name="using-sapphire" class="anchor" href="#using-sapphire"><span class="octicon octicon-link"></span></a>Using Sapphire</h3>
