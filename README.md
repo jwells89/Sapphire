@@ -4,7 +4,7 @@
 Sapphire is a WebKit-based web browser for OS X 10.9 and above that focuses on providing power user features and a unique tab organization scheme alongside a sleek, modern UI. It's currently in its pre-alpha stage and is, for the time being, a hobby project.
 
 ###Planned Features
-* Horizontal "source list" tab organization, including support for groups, smart groups, and sticky groups
+* Vertical "source list" tab organization, including support for groups, smart groups, and sticky groups
 * Per-site settings, allowing Java, JavaScript, and web plugins to be enabled or disabled on a site-to-site basis
 * Per-site customizations through user stylesheets and JavaScript
 * HTML5 video and audio substitution in place of web plugins where possible'
